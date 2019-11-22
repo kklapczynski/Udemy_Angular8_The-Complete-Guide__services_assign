@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { UsersService } from './users.service';
-import { CounterService } from './counter.service';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,10 +6,4 @@ import { CounterService } from './counter.service';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit {
-
-  constructor() {}
-
-  ngOnInit() {
-  }
-}
+export class AppComponent {}

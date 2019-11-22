@@ -20,7 +20,7 @@ import { CounterService } from './counter.service';
     BrowserModule,
     FormsModule,
   ],
-  providers: [CounterService],
+  providers: [CounterService],  // available service all across the app - allows to inject into other service
   bootstrap: [AppComponent]
 })
 export class AppModule { }

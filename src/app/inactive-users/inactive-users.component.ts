@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { UsersService } from '../users.service';
 
 @Component({
@@ -17,8 +17,5 @@ export class InactiveUsersComponent implements OnInit {
 
   onSetToActive(id: number) {
     this.userService.onSetToActive(id);
-
-    // emit event changeToActive
-    
   }
 }
